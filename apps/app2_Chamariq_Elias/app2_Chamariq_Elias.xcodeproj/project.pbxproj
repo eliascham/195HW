@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4943752513D36600994331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4943742513D36600994331 /* AppDelegate.swift */; };
+		EC4943772513D36600994331 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4943762513D36600994331 /* SceneDelegate.swift */; };
+		EC4943792513D36600994331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4943782513D36600994331 /* ViewController.swift */; };
+		EC49437C2513D36600994331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC49437A2513D36600994331 /* Main.storyboard */; };
+		EC49437E2513D36800994331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC49437D2513D36800994331 /* Assets.xcassets */; };
+		EC4943812513D36800994331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC49437F2513D36800994331 /* LaunchScreen.storyboard */; };
+		EC49438C2513D36800994331 /* app2_Chamariq_EliasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49438B2513D36800994331 /* app2_Chamariq_EliasTests.swift */; };
+		EC4943972513D36800994331 /* app2_Chamariq_EliasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4943962513D36800994331 /* app2_Chamariq_EliasUITests.swift */; };
+		ECB49F13251BC4DB00AC74D7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB49F12251BC4DB00AC74D7 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4943882513D36800994331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4943692513D36500994331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4943702513D36500994331;
+			remoteInfo = app2_Chamariq_Elias;
+		};
+		EC4943932513D36800994331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4943692513D36500994331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4943702513D36500994331;
+			remoteInfo = app2_Chamariq_Elias;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4943712513D36500994331 /* app2_Chamariq_Elias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app2_Chamariq_Elias.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4943742513D36600994331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4943762513D36600994331 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC4943782513D36600994331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC49437B2513D36600994331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC49437D2513D36800994331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4943802513D36800994331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4943822513D36800994331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4943872513D36800994331 /* app2_Chamariq_EliasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app2_Chamariq_EliasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC49438B2513D36800994331 /* app2_Chamariq_EliasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app2_Chamariq_EliasTests.swift; sourceTree = "<group>"; };
+		EC49438D2513D36800994331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4943922513D36800994331 /* app2_Chamariq_EliasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app2_Chamariq_EliasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4943962513D36800994331 /* app2_Chamariq_EliasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app2_Chamariq_EliasUITests.swift; sourceTree = "<group>"; };
+		EC4943982513D36800994331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB49F12251BC4DB00AC74D7 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC49436E2513D36500994331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4943842513D36800994331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC49438F2513D36800994331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4943682513D36500994331 = {
+			isa = PBXGroup;
+			children = (
+				EC4943732513D36500994331 /* app2_Chamariq_Elias */,
+				EC49438A2513D36800994331 /* app2_Chamariq_EliasTests */,
+				EC4943952513D36800994331 /* app2_Chamariq_EliasUITests */,
+				EC4943722513D36500994331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4943722513D36500994331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4943712513D36500994331 /* app2_Chamariq_Elias.app */,
+				EC4943872513D36800994331 /* app2_Chamariq_EliasTests.xctest */,
+				EC4943922513D36800994331 /* app2_Chamariq_EliasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4943732513D36500994331 /* app2_Chamariq_Elias */ = {
+			isa = PBXGroup;
+			children = (
+				EC4943742513D36600994331 /* AppDelegate.swift */,
+				EC4943762513D36600994331 /* SceneDelegate.swift */,
+				EC4943782513D36600994331 /* ViewController.swift */,
+				EC49437A2513D36600994331 /* Main.storyboard */,
+				EC49437D2513D36800994331 /* Assets.xcassets */,
+				EC49437F2513D36800994331 /* LaunchScreen.storyboard */,
+				EC4943822513D36800994331 /* Info.plist */,
+				ECB49F12251BC4DB00AC74D7 /* File.swift */,
+			);
+			path = app2_Chamariq_Elias;
+			sourceTree = "<group>";
+		};
+		EC49438A2513D36800994331 /* app2_Chamariq_EliasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC49438B2513D36800994331 /* app2_Chamariq_EliasTests.swift */,
+				EC49438D2513D36800994331 /* Info.plist */,
+			);
+			path = app2_Chamariq_EliasTests;
+			sourceTree = "<group>";
+		};
+		EC4943952513D36800994331 /* app2_Chamariq_EliasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4943962513D36800994331 /* app2_Chamariq_EliasUITests.swift */,
+				EC4943982513D36800994331 /* Info.plist */,
+			);
+			path = app2_Chamariq_EliasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4943702513D36500994331 /* app2_Chamariq_Elias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC49439B2513D36800994331 /* Build configuration list for PBXNativeTarget "app2_Chamariq_Elias" */;
+			buildPhases = (
+				EC49436D2513D36500994331 /* Sources */,
+				EC49436E2513D36500994331 /* Frameworks */,
+				EC49436F2513D36500994331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = app2_Chamariq_Elias;
+			productName = app2_Chamariq_Elias;
+			productReference = EC4943712513D36500994331 /* app2_Chamariq_Elias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4943862513D36800994331 /* app2_Chamariq_EliasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC49439E2513D36800994331 /* Build configuration list for PBXNativeTarget "app2_Chamariq_EliasTests" */;
+			buildPhases = (
+				EC4943832513D36800994331 /* Sources */,
+				EC4943842513D36800994331 /* Frameworks */,
+				EC4943852513D36800994331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4943892513D36800994331 /* PBXTargetDependency */,
+			);
+			name = app2_Chamariq_EliasTests;
+			productName = app2_Chamariq_EliasTests;
+			productReference = EC4943872513D36800994331 /* app2_Chamariq_EliasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4943912513D36800994331 /* app2_Chamariq_EliasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4943A12513D36800994331 /* Build configuration list for PBXNativeTarget "app2_Chamariq_EliasUITests" */;
+			buildPhases = (
+				EC49438E2513D36800994331 /* Sources */,
+				EC49438F2513D36800994331 /* Frameworks */,
+				EC4943902513D36800994331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4943942513D36800994331 /* PBXTargetDependency */,
+			);
+			name = app2_Chamariq_EliasUITests;
+			productName = app2_Chamariq_EliasUITests;
+			productReference = EC4943922513D36800994331 /* app2_Chamariq_EliasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4943692513D36500994331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Elias Chamariq";
+				TargetAttributes = {
+					EC4943702513D36500994331 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					EC4943862513D36800994331 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = EC4943702513D36500994331;
+					};
+					EC4943912513D36800994331 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = EC4943702513D36500994331;
+					};
+				};
+			};
+			buildConfigurationList = EC49436C2513D36500994331 /* Build configuration list for PBXProject "app2_Chamariq_Elias" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4943682513D36500994331;
+			productRefGroup = EC4943722513D36500994331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4943702513D36500994331 /* app2_Chamariq_Elias */,
+				EC4943862513D36800994331 /* app2_Chamariq_EliasTests */,
+				EC4943912513D36800994331 /* app2_Chamariq_EliasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC49436F2513D36500994331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4943812513D36800994331 /* LaunchScreen.storyboard in Resources */,
+				EC49437E2513D36800994331 /* Assets.xcassets in Resources */,
+				EC49437C2513D36600994331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4943852513D36800994331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4943902513D36800994331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC49436D2513D36500994331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4943792513D36600994331 /* ViewController.swift in Sources */,
+				ECB49F13251BC4DB00AC74D7 /* File.swift in Sources */,
+				EC4943752513D36600994331 /* AppDelegate.swift in Sources */,
+				EC4943772513D36600994331 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4943832513D36800994331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC49438C2513D36800994331 /* app2_Chamariq_EliasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC49438E2513D36800994331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4943972513D36800994331 /* app2_Chamariq_EliasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4943892513D36800994331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4943702513D36500994331 /* app2_Chamariq_Elias */;
+			targetProxy = EC4943882513D36800994331 /* PBXContainerItemProxy */;
+		};
+		EC4943942513D36800994331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4943702513D36500994331 /* app2_Chamariq_Elias */;
+			targetProxy = EC4943932513D36800994331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC49437A2513D36600994331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC49437B2513D36600994331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC49437F2513D36800994331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4943802513D36800994331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4943992513D36800994331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC49439A2513D36800994331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC49439C2513D36800994331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAYNDW4TM8;
+				INFOPLIST_FILE = app2_Chamariq_Elias/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS195.app2-Chamariq-Elias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC49439D2513D36800994331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAYNDW4TM8;
+				INFOPLIST_FILE = app2_Chamariq_Elias/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS195.app2-Chamariq-Elias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC49439F2513D36800994331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAYNDW4TM8;
+				INFOPLIST_FILE = app2_Chamariq_EliasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS195.app2-Chamariq-EliasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app2_Chamariq_Elias.app/app2_Chamariq_Elias";
+			};
+			name = Debug;
+		};
+		EC4943A02513D36800994331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAYNDW4TM8;
+				INFOPLIST_FILE = app2_Chamariq_EliasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS195.app2-Chamariq-EliasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app2_Chamariq_Elias.app/app2_Chamariq_Elias";
+			};
+			name = Release;
+		};
+		EC4943A22513D36800994331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAYNDW4TM8;
+				INFOPLIST_FILE = app2_Chamariq_EliasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS195.app2-Chamariq-EliasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = app2_Chamariq_Elias;
+			};
+			name = Debug;
+		};
+		EC4943A32513D36800994331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAYNDW4TM8;
+				INFOPLIST_FILE = app2_Chamariq_EliasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS195.app2-Chamariq-EliasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = app2_Chamariq_Elias;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC49436C2513D36500994331 /* Build configuration list for PBXProject "app2_Chamariq_Elias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4943992513D36800994331 /* Debug */,
+				EC49439A2513D36800994331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC49439B2513D36800994331 /* Build configuration list for PBXNativeTarget "app2_Chamariq_Elias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC49439C2513D36800994331 /* Debug */,
+				EC49439D2513D36800994331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC49439E2513D36800994331 /* Build configuration list for PBXNativeTarget "app2_Chamariq_EliasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC49439F2513D36800994331 /* Debug */,
+				EC4943A02513D36800994331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4943A12513D36800994331 /* Build configuration list for PBXNativeTarget "app2_Chamariq_EliasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4943A22513D36800994331 /* Debug */,
+				EC4943A32513D36800994331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4943692513D36500994331 /* Project object */;
+}
